@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100vh;
+  padding: 2vw 4vw;
+  width: 100vw;
+  background-color: #111;
+}
+main nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main nav .logo {
+  letter-spacing: -2px;
+  display: flex;
+  justify-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+main nav .logo h1 {
+  background-image: url(./text.png);
+  background-position: center;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+  border-radius: 50%;
+}
+main nav .logo img {
+  height: 5vh;
+  animation: rotate 1s linear infinite;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+  border-radius: 50%;
+}
+main nav .links {
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+  border-radius: 50%;
+  display: flex;
+  gap: 2vw;
+  background: rgba(30, 30, 30, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 50px;
+  padding: 1vh 4vh;
+}
+main nav .links a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  font-weight: 100;
+  color: white;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
+main nav .links a:hover {
+  color: #D51901;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 1px solid #D51901;
+}
+main nav button {
+  background-image: url(./text.png);
+  background-size: cover;
+  padding: 10px 35px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: white;
+  color: white;
+  font-weight: 100;
+}
+main nav button:hover {
+  background-color: #D51901;
+  color: white;
+  font-weight: 400;
+}
+main .imgs {
+  padding-top: 6vh;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 0.5vw;
+}
+main .imgs section {
+  height: 90%;
+  flex-grow: 1;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+main .imgs section:hover {
+  flex-grow: 2;
+  transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+}
+main .imgs section:nth-child(3) {
+  background-image: url(./sukuna.png);
+}
+main .imgs section:nth-child(5) {
+  background-image: url(./gojo.png);
+}
+main .imgs section:nth-child(1) {
+  background-image: url(./geto.png);
+}
+main .imgs section:nth-child(2) {
+  background-image: url(./megumi.png);
+}
+main .imgs section:nth-child(4) {
+  background-image: url(./inumaki.png);
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=style.css.map */
