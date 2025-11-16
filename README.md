@@ -1,4 +1,4 @@
-# SCSS Image Carousel
+# SCSS Project
 
 An elegant, animated image carousel built with SCSS and Flexbox, featuring smooth transitions, dynamic highlights, and modular styling for easy customization.
 
