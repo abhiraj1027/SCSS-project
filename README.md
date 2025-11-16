@@ -1,23 +1,23 @@
-# Snake Game
+# SCSS Image Carousel
 
-A classic Snake game implemented using JavaScript, HTML5, and CSS3, featuring smooth controls, dynamic gameplay, and engaging user interaction.
+An elegant, animated image carousel built with SCSS and Flexbox, featuring smooth transitions, dynamic highlights, and modular styling for easy customization.
 
 ## Features
 
-- Responsive and intuitive controls ensuring smooth gameplay  
-- Real-time score tracking and increasing difficulty to enhance player challenge  
-- Lightweight and easy to integrate into any web project  
+- Animated carousel with custom SCSS animations and effects  
+- Responsive design using Flexbox and flex-grow for dynamic image sizing  
+- Clean, maintainable SCSS codebase suitable for integration into any project  
 
 ## Technologies Used
 
-- JavaScript  
-- HTML5 Canvas  
-- CSS3  
+- SCSS (Sass)  
+- CSS Flexbox  
+- CSS animations  
 
 ## Usage
 
-Use arrow keys or on-screen controls to navigate the snake and consume food items to grow longer without colliding with walls or itself.
+Simply customize the SCSS variables to change colors, sizes, and animation speeds as needed.
 
 ## Contribution
 
-Contributions are welcome! Feel free to fork, submit issues, or open pull requests.
+Contributions and suggestions are welcome. Please fork the repo and submit a pull request.
